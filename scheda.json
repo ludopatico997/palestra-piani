@@ -1,0 +1,160 @@
+{
+  "schema": "pale-workout/1",
+  "name": "Scheda PALE · nov-dic 2026 (fase solo)",
+  "start": "2026-11-09",
+  "summary": "Upper 4 giorni (Lun · Mer · Ven · Sab) dopo cena + Tabata a casa Mar · Gio. Senza spotter: alte ripetizioni, cedimento solo su macchine e cavi.",
+  "weeks": [
+    { "n": 1, "label": "Taratura",          "dates": "11–15 nov", "rir": "3",   "tabataBlocks": 2, "techniques": false, "deload": false, "note": "Rientro da Marrakech: 3 sedute (Mer/Ven/Sab). Trova i carichi con cui chiudi 15-20 rip. Nessuna tecnica di intensità." },
+    { "n": 2, "label": "Costruzione",       "dates": "16–22 nov", "rir": "2",   "tabataBlocks": 3, "techniques": false, "deload": false, "note": "Doppia progressione: prima sali di ripetizioni, poi di carico." },
+    { "n": 3, "label": "Costruzione",       "dates": "23–29 nov", "rir": "1-2", "tabataBlocks": 3, "techniques": false, "deload": false, "note": "Stessi esercizi, più ripetizioni o più carico rispetto a S2." },
+    { "n": 4, "label": "Intensificazione",  "dates": "30 nov–6 dic", "rir": "1", "tabataBlocks": 3, "techniques": false, "deload": false, "oneDrop": true, "note": "Ultima serie di macchine e cavi (non delle spinte libere): 1 drop set." },
+    { "n": 5, "label": "Densità",           "dates": "7–13 dic",  "rir": "1",   "tabataBlocks": 4, "techniques": true,  "deload": false, "note": "Recuperi −15\". Drop set + myo-reps dove indicato (colonna Blocco 2)." },
+    { "n": 6, "label": "Densità",           "dates": "14–20 dic", "rir": "0-1 (macchine)", "tabataBlocks": 4, "techniques": true, "deload": false, "note": "Come S5: cerca di battere carichi e ripetizioni di S5." },
+    { "n": 7, "label": "Scarico (Natale)",  "dates": "21–27 dic", "rir": "3",   "tabataBlocks": 2, "techniques": false, "deload": true,  "note": "−1 serie per esercizio, niente tecniche. Settimana a calorie di mantenimento." },
+    { "n": 8, "label": "Finale",            "dates": "28 dic–3 gen", "rir": "0-1 (macchine)", "tabataBlocks": 4, "techniques": true, "deload": false, "note": "Come S6: settimana del confronto (carichi, peso, girovita)." }
+  ],
+  "safety": [
+    "Cedimento solo su macchine guidate e cavi. Su manubri e multipower fermati a RIR 2.",
+    "Multipower: regola i fermi di sicurezza PRIMA della prima serie, un dito sotto il punto più basso.",
+    "Manubri: se non chiudi la ripetizione, appoggiali sulle cosce. Non lottare.",
+    "Pesi liberi e spinte all'inizio della seduta (sei fresco); drop set e myo-reps solo alla fine, su macchina o cavo.",
+    "Riscaldamento: 1-2 serie leggere del primo esercizio (15 rip al 50%, 10 rip al 70%) + 2' di rotazioni esterne di spalla."
+  ],
+  "progression": "Doppia progressione: parti dal basso del range. Quando chiudi tutte le serie al massimo del range con il RIR indicato, sali di carico (+1-2,5 kg) e riparti dal basso. In deficit l'obiettivo è tenere i carichi e aggiungere ripetizioni: se un carico scende un po', è normale.",
+  "techniquesHelp": {
+    "Drop set": "Chiusa la serie, riduci il carico di ~25-30% subito (pin spostato) e vai a cedimento tecnico. Un solo drop.",
+    "Myo-reps": "Una serie di attivazione a 15-20 rip (RIR 1), poi 15\" di pausa e mini-serie da 4-5 rip, finché ne chiudi meno di 4. Contano come un'unica serie.",
+    "Superset": "I due esercizi di fila senza pausa (A1/A2, B1/B2…), poi recupera.",
+    "Tempo": "Negativa di 3\", risalita controllata. Se il carico \"vola\", è troppo leggero."
+  },
+  "days": {
+    "lun": {
+      "name": "Petto + Tricipiti", "focus": "priorità petto · spalle laterali", "minutes": 62,
+      "exercises": [
+        { "id": "lun-inc-db", "name": "Spinte manubri su panca inclinata 20-30°", "sets": 3, "reps": "12-15", "rest": 75, "rir": "2",
+          "note": "Scapole indietro e giù, gomiti ~45° dal busto, manubri all'altezza del petto in basso. Mai a cedimento: fermati a RIR 2 e, se non chiudi la ripetizione, appoggia i manubri sulle cosce. Alternativa: multipower inclinato con fermi.",
+          "b2": "Negativa 3\" + pausa 1\" in basso (niente drop set) · rec. 60\"" },
+        { "id": "lun-chest-press", "name": "Chest press alla macchina", "sets": 3, "reps": "12-15", "rest": 60, "rir": "0-1",
+          "note": "Maniglie a livello capezzoli, schiena aderente, scapole indietro. 3\" in negativa, 1\" di stop in basso. Qui il cedimento è sicuro: la macchina ti protegge.",
+          "b2": "Drop set (−30%) sull'ultima serie · rec. 45\"" },
+        { "id": "lun-croci", "name": "Croci ai cavi o chest fly con maniglie (alt. pectoral machine)", "sets": 3, "reps": "15-20", "rest": 45, "rir": "0-1",
+          "note": "Gomiti leggermente flessi e fissi, abbraccio ampio, 1\" di contrazione al centro. Ritorno lento (3\").",
+          "b2": "Myo-reps sull'ultima serie · rec. 30\"" },
+        { "id": "lun-alzate", "name": "Alzate laterali (manubri o cavi)", "sets": 3, "reps": "15-20", "rest": 0, "rir": "1", "ss": "A1",
+          "note": "Gomiti leggermente flessi, sali fino all'altezza delle spalle, polso mai sopra il gomito. Niente slancio col busto.",
+          "b2": "Ultima serie: drop set" },
+        { "id": "lun-pushdown", "name": "Push-down tricipiti con corda", "sets": 3, "reps": "15", "rest": 60, "rir": "1", "ss": "A2",
+          "note": "Gomiti fermi ai fianchi; a fine corsa apri la corda. Superset con A1: poi recupera.",
+          "b2": "Ultima serie: drop set · rec. 45\" a fine giro" },
+        { "id": "lun-overhead", "name": "Estensioni overhead con corda al cavo", "sets": 3, "reps": "12-15", "rest": 60, "rir": "0-1",
+          "note": "Gomiti stretti vicino alla testa, allungamento completo dietro la nuca, busto leggermente inclinato in avanti.",
+          "b2": "Myo-reps sull'ultima serie · rec. 45\"" },
+        { "id": "lun-crunch", "name": "Cable crunch (cavo alto, corda)", "sets": 3, "reps": "15-20", "rest": 45, "rir": "1",
+          "note": "In ginocchio, bacino fermo: arrotonda il busto portando le costole verso il bacino. Non tirare con le braccia." },
+        { "id": "lun-plank", "name": "Plank", "sets": 2, "reps": "45-60", "rest": 30, "rir": "", "timed": true,
+          "note": "Linea retta, glutei e addominali contratti, non lasciare cadere i lombari." }
+      ]
+    },
+    "mer": {
+      "name": "Dorso + Bicipiti + postura", "focus": "anti-cifosi", "minutes": 65,
+      "exercises": [
+        { "id": "mer-pulley", "name": "Pulley (cavo basso, presa neutra)", "sets": 3, "reps": "12-15", "rest": 75, "rir": "1-2",
+          "note": "Petto alto, scapole indietro e giù a fine tirata, 1\" di pausa. Nessun dondolio del busto: se serve, riduci il carico.",
+          "b2": "Pausa 2\" a fine tirata · rec. 60\"" },
+        { "id": "mer-lat", "name": "Lat machine presa larga (alt. trazioni assistite o lat monolaterale ai cavi)", "sets": 3, "reps": "12-15", "rest": 75, "rir": "1",
+          "note": "Non al primo posto perché spesso occupata. Gomiti verso le tasche, petto verso la sbarra, controlla la risalita.",
+          "b2": "Ultima serie: drop set · rec. 60\"" },
+        { "id": "mer-tese", "name": "Pulldown a braccia tese ai cavi", "sets": 2, "reps": "15-20", "rest": 45, "rir": "0-1",
+          "note": "Braccia quasi tese, il movimento parte dalla spalla; senti il gran dorsale che si accorcia.",
+          "b2": "Myo-reps sull'ultima serie · rec. 30\"" },
+        { "id": "mer-facepull", "name": "Face pull (cavo alto, corda)", "sets": 3, "reps": "15-20", "rest": 0, "rir": "2", "ss": "B1",
+          "note": "Tira verso il viso, gomiti alti, a fine corsa ruota le mani all'esterno. Esercizio chiave anti-cifosi: non saltarlo." },
+        { "id": "mer-revfly", "name": "Reverse fly ai cavi (incrocio)", "sets": 3, "reps": "15-20", "rest": 45, "rir": "1", "ss": "B2",
+          "note": "Cavi alti incrociati, braccia quasi tese, apri portando i gomiti indietro. Niente pec deck: si fa ai cavi.",
+          "b2": "Ultima serie: drop set · rec. 30\" a fine giro" },
+        { "id": "mer-curl-inc", "name": "Curl manubri su panca inclinata 45-60°", "sets": 3, "reps": "12-15", "rest": 60, "rir": "1",
+          "note": "Spalle appoggiate indietro, braccio che pende: massimo allungamento. Niente slancio.",
+          "b2": "Negativa 3\" · rec. 45\"" },
+        { "id": "mer-hammer", "name": "Hammer curl alla corda (cavo basso)", "sets": 3, "reps": "12-15", "rest": 45, "rir": "0-1",
+          "note": "Polsi neutri, gomiti fermi ai fianchi.",
+          "b2": "Ultima serie: drop set · rec. 30\"" },
+        { "id": "mer-knee", "name": "Knee raise (sedia romana o sbarra)", "sets": 3, "reps": "12-15", "rest": 45, "rir": "1",
+          "note": "Bacino che si arrotonda verso il petto, niente dondolio." }
+      ]
+    },
+    "ven": {
+      "name": "Spalle + Petto + Braccia", "focus": "spalle priorità · petto 2° passaggio", "minutes": 62,
+      "exercises": [
+        { "id": "ven-shoulder", "name": "Shoulder press alla macchina", "sets": 3, "reps": "12-15", "rest": 75, "rir": "1",
+          "note": "Schiena aderente, spingi senza inarcare i lombari, scendi fino a gomiti a 90°.",
+          "b2": "Ultima serie: drop set · rec. 60\"" },
+        { "id": "ven-alzate-cavi", "name": "Alzate laterali ai cavi monolaterali", "sets": 3, "reps": "15-20", "rest": 45, "rir": "0-1",
+          "note": "Cavo basso, passa davanti alle cosce, braccio quasi teso, gomito leggermente flesso. Per lato.",
+          "b2": "Ultima serie: drop set · rec. 30\"" },
+        { "id": "ven-panca-mp", "name": "Panca piana al multipower", "sets": 3, "reps": "12-15", "rest": 75, "rir": "2",
+          "note": "FERMI DI SICUREZZA regolati prima della prima serie, un dito sotto il punto più basso. Mai a cedimento: RIR 2, poi riaggancia il bilanciere ai ganci.",
+          "b2": "Pausa 1\" sul petto (niente drop set) · rec. 60\"" },
+        { "id": "ven-croci-alti", "name": "Croci ai cavi alti (alt. pectoral machine)", "sets": 2, "reps": "15-20", "rest": 45, "rir": "0-1",
+          "note": "Dall'alto verso il basso, mani che si incontrano all'altezza dell'ombelico; stretch lento.",
+          "b2": "Myo-reps sull'ultima serie · rec. 30\"" },
+        { "id": "ven-scott", "name": "Curl alla macchina Scott (alt. barra EZ)", "sets": 3, "reps": "12-15", "rest": 0, "rir": "0-1", "ss": "C1",
+          "note": "Ascelle ben appoggiate, non estendere del tutto il gomito in basso.",
+          "b2": "Ultima serie: drop set" },
+        { "id": "ven-pushdown-v", "name": "Push-down con barra V o dritta", "sets": 3, "reps": "12-15", "rest": 60, "rir": "0-1", "ss": "C2",
+          "note": "Gomiti fermi, spingi fino a bloccare, risali controllando.",
+          "b2": "Ultima serie: drop set · rec. 45\" a fine giro" },
+        { "id": "ven-plank-spalle", "name": "Plank con tocco spalle", "sets": 3, "reps": "45-60", "rest": 30, "rir": "", "timed": true,
+          "note": "Bacino fermo mentre alterni il tocco: non ondeggiare." }
+      ]
+    },
+    "sab": {
+      "name": "Dorso + Braccia + pump petto", "focus": "spalle laterali", "minutes": 65,
+      "exercises": [
+        { "id": "sab-rem-cavo", "name": "Rematore al cavo basso a un braccio", "sets": 3, "reps": "12-15", "rest": 60, "rir": "1",
+          "note": "Seduto o in ginocchio, busto fermo, gomito che passa vicino al fianco. Per lato.",
+          "b2": "Pausa 2\" a fine tirata · rec. 45\"" },
+        { "id": "sab-lat-neutra", "name": "Lat machine presa neutra o inversa (alt. lat monolaterale ai cavi)", "sets": 3, "reps": "12-15", "rest": 75, "rir": "1",
+          "note": "Se è occupata passa subito all'esercizio 3 e torna dopo. Petto alto, gomiti lungo i fianchi.",
+          "b2": "Ultima serie: drop set · rec. 60\"" },
+        { "id": "sab-pec", "name": "Pectoral machine o chest fly con maniglie", "sets": 3, "reps": "15-20", "rest": 45, "rir": "0-1",
+          "note": "Pump finale per il petto: pausa 2\" alla massima chiusura, ritorno lento.",
+          "b2": "Myo-reps sull'ultima serie · rec. 30\"" },
+        { "id": "sab-curl-ez", "name": "Curl con barra EZ (alt. barra al cavo basso)", "sets": 3, "reps": "12-15", "rest": 0, "rir": "1", "ss": "D1",
+          "note": "Gomiti fermi, niente slancio; abbassa in 3\".",
+          "b2": "Ultima serie: drop set" },
+        { "id": "sab-french", "name": "French press ai cavi o estensioni overhead monolaterali", "sets": 3, "reps": "12-15", "rest": 60, "rir": "0-1", "ss": "D2",
+          "note": "Gomiti puntati in avanti, allungamento completo, spinta senza muovere le spalle.",
+          "b2": "Ultima serie: drop set · rec. 45\" a fine giro" },
+        { "id": "sab-alzate-db", "name": "Alzate laterali ai manubri", "sets": 3, "reps": "15-20", "rest": 45, "rir": "0-1",
+          "note": "Leggero ma pulito: ultime ripetizioni con mezzo movimento (parziali) ammesse solo qui.",
+          "b2": "Ultima serie: drop set · rec. 30\"" },
+        { "id": "sab-crunch-inv", "name": "Crunch inverso su panca", "sets": 3, "reps": "15-20", "rest": 45, "rir": "1",
+          "note": "Porta le ginocchia al petto staccando il bacino, scendi lento." },
+        { "id": "sab-plank-lat", "name": "Plank laterale (per lato)", "sets": 2, "reps": "30", "rest": 30, "rir": "", "timed": true,
+          "note": "Corpo in linea, fianco alto." }
+      ]
+    }
+  },
+  "tabata": {
+    "protocol": { "warmup": 180, "work": 20, "rest": 10, "rounds": 8, "between": 60, "cooldown": 120, "time": "16:30" },
+    "help": "1 blocco Tabata = 8 round × (20\" lavoro + 10\" pausa) = 4', con due esercizi alternati (A-B-A-B…). Nei 20\" vai a 8-9 su 10: a fine round devi poter dire al massimo una parola. Se la forma crolla, passa alla versione facile. Non farlo con sonno scarso, febbre o dolori articolari: salta la seduta, il piano regge.",
+    "mar": {
+      "name": "Total body",
+      "blocks": [
+        { "a": "Burpee senza flessione", "aEasy": "step-back senza salto", "b": "Mountain climber" },
+        { "a": "Skater jump", "aEasy": "pattinatore senza salto", "b": "Ginocchia alte" },
+        { "a": "Plank jack", "aEasy": "step laterali in plank", "b": "Bicycle crunch" },
+        { "a": "Jumping jack con pugni", "b": "Squat jump", "bEasy": "squat veloce" }
+      ]
+    },
+    "gio": {
+      "name": "Gambe + core",
+      "blocks": [
+        { "a": "Squat jump", "aEasy": "squat veloce", "b": "Affondi indietro alternati" },
+        { "a": "Ginocchia alte / corsa sul posto", "b": "Jumping jack" },
+        { "a": "Crunch inverso", "b": "Forbici (flutter kick)" },
+        { "a": "Skater jump", "aEasy": "pattinatore senza salto", "b": "Squat veloce" }
+      ]
+    }
+  }
+}
